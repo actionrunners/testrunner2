@@ -1,8 +1,8 @@
 on:
-  push:
+  pull_request:
 
 jobs:
   build: 
-    runs-on: self-hosted # label of org runner
+    runs-on: arc-runner-org # label of org runner
     steps: 
-      - run: echo "Hello kishore"
+      - run: echo "Hello build!"
