@@ -1,8 +1,0 @@
-on:
-  pull_request:
-
-jobs:
-  build: 
-    runs-on: self-hosted # label of org runner
-    steps: 
-      - run: echo "Hello build!"
